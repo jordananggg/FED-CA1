@@ -1,0 +1,93 @@
+body {
+    background-image: linear-gradient(to right, #d9f7a0, #43acb7)
+}
+
+figure {
+    padding: 30px;
+    border: 5px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(72, 105, 68);
+    background-image: url('../img/trees.jpg'); /* image source: https://www.vecteezy.com/vector-art/10826173-pine-trees-forest-silhouette-nature-landscape-background */
+}
+
+figcaption {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+
+a {
+    font-size: 20px;
+    font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif;
+}
+
+h1 {
+   font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif; 
+   border-bottom: 2px solid black;
+   font-size: 2em;
+}
+
+p {
+font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif; 
+font-size: 25px;
+padding-left: 20px;
+margin-left: 20px;
+}
+
+header {
+    font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif;  
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img {
+    border: 10px;
+    border-radius: 20px;
+    width: 300px;
+   
+}
+
+#img1 {
+    float: right;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(90, 90, 90);
+}
+
+#img2 {
+    float: right;
+    border-style: solid;
+    border-color: rgb(90, 90, 90);
+}
+
+#img3 {
+    float: right;
+    border-style: ridge;
+    border-color: rgb(90, 90, 90);
+}
